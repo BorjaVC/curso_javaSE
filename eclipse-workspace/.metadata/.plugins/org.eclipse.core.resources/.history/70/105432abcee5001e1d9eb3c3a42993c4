@@ -1,0 +1,17 @@
+package principal;
+
+public class Comprobar {
+
+	public static void main(String[] args) {
+		int num = 4;//Simula número introducido desde fuera
+		
+		if(num%2 == 0) {
+		
+		System.out.println(num / 2);
+
+	}else {
+		System.out.println(--num /2 );
+	}
+	}
+
+}

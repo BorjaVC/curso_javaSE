@@ -1,0 +1,17 @@
+package principal;
+import java.util.Scanner;
+public class Multiplos {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Introduce un número: ");
+		int num1;
+		num1 = sc.nextInt();
+		System.out.println("Introduce otro número: ");
+		int num2;
+		num2 = sc.nextInt();
+		
+
+	}
+
+}

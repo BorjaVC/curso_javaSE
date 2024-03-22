@@ -1,0 +1,23 @@
+package principal;
+
+public class ComprobarDireccionesModular {
+
+	public static void main(String[] args) {
+		String email = "aaa@gmail.com,bbb@tel.es,ccc@gmail.es,ddd@gmail.com,abc@gmail.com";
+		String emails[] = email.split(",");
+		int contador1 = 0;
+		int contador2 = 0;
+
+	}
+	
+	static int contarDominio(String dominio,String[]dirs) {
+		int contador= 0;
+		for(String em : dirs) {
+			if(em.endsWith(dominio)) {
+				contador++;
+			}
+		}
+		return contador;
+	}
+
+}

@@ -1,0 +1,19 @@
+package principal;
+
+public class División {
+
+	public static void main(String[] args) {
+		int x = 8;
+		int y = 15;
+		
+		if(x > y) {
+			double z= x/y;
+			System.out.println(z + " E número mayor es " + x);
+		}else {
+			double z= x/y;
+			System.out.println(y / x  + " El número mayor es " + y );
+		}
+
+	}
+
+}

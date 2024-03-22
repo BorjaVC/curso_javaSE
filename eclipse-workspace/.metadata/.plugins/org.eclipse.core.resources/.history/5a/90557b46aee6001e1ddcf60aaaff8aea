@@ -1,0 +1,25 @@
+package principal;
+import java.util.Scanner;
+public class ComprobarPresupuesto {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		double precios[] = {19_500,23_890,33_000,30_550,40_900};
+		
+		//Variables
+		double presupuesto;
+		System.out.println("Introduce cual es tu presupuesto:");
+		presupuesto = entrada.nextDouble();
+		
+		for(double precio : precios) {
+			if(presupuesto >= precio ) {
+				System.out.println(precio);
+			}
+			
+		}
+		
+		
+
+	}
+
+}

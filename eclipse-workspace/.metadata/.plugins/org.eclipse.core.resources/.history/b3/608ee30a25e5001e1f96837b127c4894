@@ -1,0 +1,11 @@
+package principal;
+
+public class VariablesTipos {
+
+	public static void main(String[] args) {
+		int s,v,d = 10;
+		System.out.println("Solo la variable d está inicializada y su valos es " + d );
+
+	}
+
+}

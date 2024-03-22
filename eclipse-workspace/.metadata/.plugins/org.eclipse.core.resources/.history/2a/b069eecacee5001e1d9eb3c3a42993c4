@@ -1,0 +1,21 @@
+package principal;
+
+public class Comprobar {
+
+	public static void main(String[] args) {
+		int num = 4;//Simula número introducido desde fuera
+		int num1 = 9 ;
+		
+		if(num%2 == 0) {
+		
+		System.out.println(num / 2);
+
+	}else {
+		System.out.println(--num /2 );
+	}
+		
+	//Operador ternario
+		System.out.println(num%2 == 0 ? num1 / 2 : (num1 - 1 / 2));
+}
+
+}

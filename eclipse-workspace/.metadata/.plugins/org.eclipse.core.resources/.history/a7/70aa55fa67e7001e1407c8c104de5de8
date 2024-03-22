@@ -1,0 +1,21 @@
+package principal;
+
+public class PruebaTexto {
+
+	public static void main(String[] args) {
+		String n = "hello";// Variable de tipo objeto
+		n.toUpperCase();
+		System.out.println("Objeto inmutable de como resultado: " + n);
+		
+		
+		n=n.toUpperCase();//Variable primitiva mismo nombre contiene la referencia al objeto
+		System.out.println("Al meter el resultado en una variable con el mismo nombre: " + n);
+		
+		var m=n.toUpperCase();
+		System.out.println("Al meter el resultado en una variable con distinto nombre: " + m);
+		
+		
+
+	}
+
+}

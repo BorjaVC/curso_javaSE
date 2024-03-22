@@ -1,0 +1,26 @@
+package principal;
+import java.util.Scanner;
+public class Presupuesto {
+
+	public static void main(String[] args) {
+		Scanner scr = new Scanner(System.in);
+		var precios = new String[]{"VOLVO-19500","Audi-23890","Totota-33000","BMW-30550","Mercedes-40900"};//Utilizar var en variables locales INICIALIZADAS
+		int presupuesto;
+		int guion ;
+		int valorPrecio;
+		
+		System.out.println("Indique su presupuesto");
+		presupuesto = scr.nextInt();
+		for (String precio : precios) {
+			guion = precio.indexOf("-");
+			valorPrecio = Integer.parseInt(precio.substring(guion+1, precio.length()));
+			if(valorPrecio <= presupuesto) {
+				System.out.println(valorPrecio);
+			}
+			
+		}
+
+		
+	}
+
+}

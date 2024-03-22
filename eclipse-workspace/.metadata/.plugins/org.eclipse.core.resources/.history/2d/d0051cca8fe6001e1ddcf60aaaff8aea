@@ -1,0 +1,17 @@
+package principal;
+
+public class SumarHasta1000 {
+
+	public static void main(String[] args) {
+		int num1 = 1;
+		int resultado = 0;
+		
+		while(resultado <= 1000) {
+			resultado += num1; 
+			num1++;
+		}
+		
+System.out.println(resultado);
+	}
+
+}

@@ -1,0 +1,17 @@
+package principal;
+
+public class Sumador {
+
+	public static void main(String[] args) {
+		int n1 = 20;
+		int n2 = 11;
+		int suma = 0;
+		
+		for(int i = n2 + 1; i<n1;i++) {
+				suma += i;
+		}
+		System.out.println(suma);
+
+	}
+
+}

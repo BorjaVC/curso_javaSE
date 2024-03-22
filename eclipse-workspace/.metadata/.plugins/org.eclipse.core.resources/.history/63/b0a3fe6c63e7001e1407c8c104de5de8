@@ -1,0 +1,24 @@
+package principal;
+
+public class OrdenarArray {
+
+	public static void main(String[] args) {
+		int edades[]= {19,24,14,38,27,30};
+		int cambio;//Varible q guarda el valor mayor
+		
+		for(int i = 1;i < edades.length;i++) {
+			for(int j= i+1;j<edades.length;j++) {
+				if(edades[i] > edades[j]) {
+					cambio = edades[i];
+					edades[i] = edades[j];
+					edades[j] = cambio;
+				}
+			}
+		}
+		for(int edad : edades) {
+			System.out.println(edad);
+		}
+
+	}
+
+}

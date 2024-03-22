@@ -1,0 +1,11 @@
+package principal;
+import java.util.Scanner;
+public class BuscarProdudcto {
+
+	public static void main(String[] args) {
+		String cesta = "Tomates,Patatas,Vino,Peras,Tomates,Azucar,Vino,Tomates,Limones";
+		
+		
+	}
+
+}

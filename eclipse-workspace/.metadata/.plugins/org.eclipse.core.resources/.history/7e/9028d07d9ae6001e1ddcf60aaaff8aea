@@ -1,0 +1,32 @@
+package principal;
+import java.util.Scanner;
+public class SolicituPin {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		final int PIN_VALIDO = 1234;
+		int contador = 0;
+		
+		do {
+			System.out.println("Introduce un pin");
+			int pin = entrada.nextInt();
+			if(pin != PIN_VALIDO) {
+				contador++;
+				System.out.println("Error.Introduce de nuevo el pin");
+			}
+			}while(contador <= 3);
+		if(contador <= 3) {
+			System.out.println("Acceso permitido");
+		}else {
+			System.out.println("Excesoi de intentos");
+		}
+		
+			
+	
+		
+		
+		
+
+	}
+
+}

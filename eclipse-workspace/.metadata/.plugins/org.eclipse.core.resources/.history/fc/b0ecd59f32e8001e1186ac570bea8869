@@ -1,0 +1,10 @@
+package principal;
+
+public class ComprobarDireccionesCompleto {
+
+	public static void main(String[] args) {
+		String email = "aaa@gmail.com,bbb@tel.es,ccc@gmail.es,ddd@gmail.com,,abcd@gmail.org,bvc@gmail.net";
+
+	}
+
+}

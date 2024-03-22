@@ -1,0 +1,23 @@
+package principal;
+
+public class ComprobarPrimo {
+
+	public static void main(String[] args) {
+		int num= 16;
+		
+		int resultado;
+		
+		for(int i = 2; i < num;i++) {
+			resultado = num / i;
+			if(resultado == num || resultado == 1 ) {
+				System.out.println("El número " + num + " es primo");
+			}else {
+				System.out.println("El número " + num + " no es primo");
+			}
+		}
+		
+		
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package principal;
+import java.util.Scanner;
+public class SolicituPin {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		final int PIN_VALIDO = 1234;
+		
+
+	}
+
+}
